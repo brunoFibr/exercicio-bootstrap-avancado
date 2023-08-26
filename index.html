@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loja de celulares</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <style>
+        .carousel-item img {
+            max-width: 100%;
+        }
+
+        img {
+            max-width: 40%;
+        }
+
+        .card {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="border-bottom mb-2">
+        <h1 class="text-center">Loja de celulares</h1>
+    </header>
+    <div class="container">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="./imagens/banner 1.png" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="./imagens/banner 2.png" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="./imagens/banner 3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <div class="container">
+        <h2 class="text-center pt-2 pb-2">Celulares em promoção</h2>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header bg-warning bg-gradient">
+                        <strong>50% de desconto</strong>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="./imagens/celular 1.webp" class="rounded mx-auto d-block" alt="Celular a venda 1">
+
+                        <h4 class="car-title">Celular em oferta 1</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet conseendis nobis ofoluptates illo doloribus quidem incidunt?
+                        </p>
+                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header bg-warning bg-gradient">
+                        <strong>50% de desconto</strong>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="./imagens/celular 2.webp" class="rounded mx-auto d-block max-width" alt="Celular a venda 2">
+
+                        <h4 class="car-title">Celular em oferta 2</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet conseendis nobis ofoluptates illo doloribus quidem incidunt?
+                        </p>
+                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <div class="card-header bg-warning bg-gradient">
+                        <strong>50% de desconto</strong>
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="./imagens/celular 3.webp" class="rounded mx-auto d-block" alt="Celular a venda 3">
+                        <h4 class="car-title">Celular em oferta 3</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet conseendis nobis ofoluptates illo doloribus quidem incidunt?
+                        </p>
+                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
